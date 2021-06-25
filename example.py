@@ -1,5 +1,11 @@
 # -*- coding: UTF-8 -*-
 
+#This script handles the login GUI presented to the employee responsible for the drone, as well as the main routine for the drone's flight.
+#The login routine uses unencrypted credentials, hard coded to the script in this example. In a real scenario, this would be substituted for a database managed by the company that offers the service.
+#The routine for the drone was taken from the examples contained in the Olympe library.
+#https://developer.parrot.com/docs/olympe/userguide.html
+
+
 import olympe
 import time
 import subprocess
